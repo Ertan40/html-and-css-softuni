@@ -1,0 +1,41 @@
+/* TODO: style the html */
+
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+/* 
+• <a>:
+◦ None text decoration
+◦ Text color: #fff
+◦ Set the border radius to 5.40px
+◦ Top & bottom paddings 12.6px
+◦ Left & right paddings 27px */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5.40px;
+    padding-top: 12.6px;
+    padding-bottom: 12.6px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+i {
+    padding-right: 5.40px;
+}
+
+a:hover {
+    color: #eee;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
