@@ -1,1 +1,43 @@
 /* TODO: style the html */
+body {
+    background-color: #02475e;
+}
+
+article h2 {
+    text-align: center;
+    color: #fefecc;
+    font-size: 36px;
+    margin: 12px;
+}
+
+article p {
+    color: #eee;
+    font-family: Arial, sans-serif;
+    text-indent: 30px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+article div {
+    border-top: 2px solid #d1d1dd;
+    margin-bottom: 30px;
+    position: relative;
+    top: 20px;
+}
+
+/* margin: 0px auto */
+
+article span {
+    text-align: center;
+    width: 120px;
+    font-size: 14px;
+    display: block;
+    position: relative;
+    margin-top: 0px;  
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px 5px;
+    background-color: #fff;
+    top: -11px;
+}
