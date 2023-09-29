@@ -1,0 +1,99 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    display: block;
+}
+
+main {
+    display: inline-block;
+    width: 60%;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header nav ul {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    top: 2px;
+    margin-right: 40px;
+}
+
+a {
+    color: RGB(0, 102, 0);
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+
+body > header {
+    border-bottom: 2px solid #444;
+}
+
+#align-block {
+    display: inline-block;
+    width: 50%;
+}
+
+blockquote {
+    display: inline-block;
+    width: 30%;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    
+}
+
+blockquote p:nth-child(2) {
+    text-align: right; 
+}
+
+h1 h2 h3 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+    border: 3px solid black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.first-image {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.second-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 110px;
+    font-family: Georgia, serif;
+}
+
