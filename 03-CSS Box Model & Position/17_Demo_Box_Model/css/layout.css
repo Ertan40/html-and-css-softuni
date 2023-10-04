@@ -1,0 +1,38 @@
+.site {
+    margin: 2em auto;
+    max-width: 40em;
+}
+
+.site-header {
+    position: relative;
+    padding: 1em 0;
+    border-bottom: 2px solid #369;
+    margin-bottom: 2em;
+}
+
+.site-title {
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    line-height: 1;
+}
+
+.main-nav {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    transform: translateY(50);
+}
+
+.site-title a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: black;
+    position: block;
+}
+
+.site-footer {
+    border-top: 2px solid #369;
+    padding-top: 1em;
+    margin-top: 2em;
+}
