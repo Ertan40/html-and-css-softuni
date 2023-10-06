@@ -1,5 +1,10 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
 body {
     background-color: rgb(238, 238, 238);
+    padding: 40px;
 }
 
 .page {
@@ -7,4 +12,96 @@ body {
     flex-wrap: wrap;
 }
 
+body > header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 100%; */
+    border-bottom: 2px solid black;
+}
 
+body > header > nav {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header p {
+    font-size: 30px;
+}
+
+body > header, body > header > nav, body > header > nav > ul {
+    display:flex;
+}
+
+li {
+    margin-left: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main {
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+    padding-left: 2em;
+}
+
+aside  h3 {
+    padding-left: 40px;
+}
+
+h1, h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.first-image {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.second-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    float: right;
+    width: 40%;
+    font-style: italic;
+    border-left: 2px solid lightgray;
+    padding-left: 20px;
+    height: 150px;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}
