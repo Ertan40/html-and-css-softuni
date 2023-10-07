@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(238, 238, 238);;
+}
+
+article {
+    /* border: 2px solid blue; */
+    width: 150px;
+    height: auto;
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px grey;
+    margin: 1.2em;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+h3, p {
+    margin: 0.5em 0;
+    padding: 0 0.8em;
+}
+
+footer {
+    margin: 0.8em 0;
+    padding: 0.8em;
+    border-top: 2px solid lightgrey;
+}
+
+.masonry article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex article {
+    flex-shrink: 0;
+}
