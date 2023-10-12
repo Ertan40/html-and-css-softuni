@@ -1,0 +1,203 @@
+ @import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+body {
+    font-family: "Gelasio", serif;
+    background: url(Media/background.jpg) no-repeat;
+    color: #564938;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #e6e3de;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav  {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(70, 70, 70); 
+}
+
+/* header a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-right: 4rem;
+    color: #564938;
+} */
+header .food {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+header button {
+    background-color: #564938;
+    color: #fff;
+    border: none;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.crave {
+    height: 440px;
+    background: url(Media/craving.jpg) center center;
+    text-align: center;
+    background-size: cover;
+}    
+
+.crave h1 {
+    padding-top: 9rem;
+    color: #fff;
+    text-shadow: 0px 5px 10px #000;
+    font-size: 3rem;
+}
+
+.crave .input {
+    width: 420px;
+    height: 36px;
+    margin: auto;
+    /* vertical-align: center; */
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.crave input {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 400px;
+    height: 36px;
+}
+
+.crave input:focus {
+    border: none;
+    outline: none;
+}
+
+.crave span {
+    vertical-align: center;
+    margin-left: 10px;
+}
+main {
+    padding: 10rem 10rem 0 10rem;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    min-width: 900px;
+    margin-bottom: 5rem;
+    background-color: #e6e3de;
+}
+
+main article:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+article .image {
+    width: 60%;
+}
+
+article .description {
+    width: 40%;
+    background-color: #fff;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+article .description h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+article .descripton p {
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+article .description button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #564938;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 1.5rem;
+
+}
+
+main h3 {
+    display: inline-block;
+    margin: 0 auto 3rem auto;
+    padding: .5rem 3rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+main ul {
+    box-sizing: border-box;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+}
+
+main ul li {
+    width: 250px;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 1.3rem;
+    font-family: italic;
+}
+
+main ul li p {
+    padding: 1rem;
+}
+main>button {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 8px 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    color: #FFF;
+    background-color: #d94b33;
+}
+
+footer {
+    display: flex;
+    padding: 3rem 6rem;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 1.3rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 1rem;
+}
+
+footer ul li {
+    display: block;
+    border-right: 1px solid black;
+    padding-right: 0.5rem;
+}
+
+footer ul li:last-child {
+    border: none;
+    padding-right: 0rem;
+}
+
