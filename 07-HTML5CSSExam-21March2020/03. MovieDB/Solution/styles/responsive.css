@@ -1,0 +1,25 @@
+@media all and (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+    .main-movie-trailer iframe {
+        width: 100%;
+        height: 100%;
+    } 
+}
+
+@media screen and (max-width: 414px) {
+    .main-movie ul li {
+        padding: 0px;
+}
+    .main-movie ul {
+        width: 100%;
+    }
+    .movie-list {
+        align-items: center;
+        flex-direction: column;
+    }
+    .movies {
+        margin: 20px 0 20px 0;
+    }
+}
