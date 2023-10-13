@@ -7,7 +7,7 @@
         height: 100%;
     } 
 }
-
+/* for phone */
 @media screen and (max-width: 414px) {
     .main-movie ul li {
         padding: 0px;
