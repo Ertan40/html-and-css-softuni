@@ -1,0 +1,105 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+header {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+.logo {
+    display: inline-block;
+    margin: auto;
+}
+.logo img {
+    margin: auto;
+    
+}
+main {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wrapper {
+    width: 50%;
+    margin-right: 2rem;
+}
+.wrapper h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-bottom: 1.6rem;
+}
+.wrapper ul li {
+    display: flex;
+    align-items: center;
+}
+.wrapper>p {
+    margin-bottom: 2.3rem;
+}
+.wrapper ul li .image img {
+    width: 70px;
+}
+.wrapper ul li {
+    margin-top: 1rem;
+}
+.image-wrapper {
+    margin-bottom: 20px;
+}
+/* second solution */
+/* body {
+    font-family: "Lato", sans-serif;
+}
+header .logo {
+    text-align: center;
+}
+
+header .logo img {
+    margin: auto;
+}
+main {
+    display: flex;
+    margin: 2rem 8rem 2rem 8rem;   
+}
+main .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+main .image-wrapper {
+    display: flex;
+    width: 50%;
+}
+.wrapper p, .wrapper h3 {
+    color: #878686;
+}
+ul li {
+    display: flex;
+    margin-top: 34px;
+}
+ul li .image, ul li .description {
+    display: inline-block;
+    
+}
+.wrapper>h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.logo>h1 {
+    font-weight: 300;
+}
+.wrapper h2, .wrapper p {
+    margin-right: 20px;
+}  */
+
