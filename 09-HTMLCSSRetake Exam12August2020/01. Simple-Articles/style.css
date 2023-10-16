@@ -1,0 +1,80 @@
+/* colors 
+light_blue: #e3f3fd
+button-price blue: #44a9f8
+text: #949a9f
+h1 text : #84898d */
+
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+body {
+    font-family: "Lato", sans-serif;
+}
+.main {
+    display: flex ;
+    gap: 2.5rem;
+    justify-content: center;
+    max-width: 1720;
+    margin-top: 4rem;
+}
+.description {
+    width: 40%;
+    max-height: 520px;
+    background-color: #e3f3fd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+}
+
+.price {
+    border: 4px solid #44a9f8;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    align-content: center;
+}
+ul li i {
+    color: #44a9f8;
+    font-weight: bold;
+    margin-right: 0.7rem;
+  }
+.description h2 {
+    margin: 1rem 0 1rem 1rem;
+    color: #4f5050;
+    font-family: "Monserrat", sans-serif;
+}
+
+.description ul li {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: #818385;
+}
+button {
+    color: #fff;
+    background-color: #44a9f8;
+    border: none;   
+    border-radius: 4px;
+    padding: 0.2rem 2.4rem;
+    box-shadow: 2px 2px 4px #CCC;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.main .price {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.price p {
+    color: #818385;
+    
+}
+.small-price {
+    font-size: 28px;
+    color: #44a9f8;
+    font-family: "Monserrat", sans-serif;
+}
+
