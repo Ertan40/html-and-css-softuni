@@ -1,0 +1,228 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+body {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    height: 1.7rem;
+    object-fit: cover;
+}
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.header-background {
+    position: absolute;
+    background: url(./images/hero-certificates.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 10%;
+    z-index: -1;
+}
+nav {
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 0px 20px #BBB;
+    width: 80%;
+    min-width: 630px;
+    height: 3rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    box-sizing: border-box;
+    padding: 0.4rem 0;
+    margin-left: 1.7rem;
+    border-top: 3px solid transparent;
+}
+nav ul li:nth-child(3) {
+    border-top: 3px solid #42abf8;
+}
+nav ul li:last-child a {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #42abf8;
+    color: #fff;
+    box-shadow: 2px 2px 8px #2c74a8;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: 2rem;
+}
+
+.description {
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #28394b;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+.description h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.description p {
+    margin-bottom: 1.2rem;
+}
+
+.diplomas {
+    position: relative;
+    width: 40%;  
+}
+.diplomas .images {
+    margin-left: 30px;
+    padding-top: 114px;
+}
+.diplomas img {
+    display: inline-block;
+}
+.diplomas img:first-child {
+    width: 45%;
+}
+.diplomas img:last-child {
+    width: 55%;
+}
+section>p {
+    text-align: right;
+}
+.recognized {
+    font-size: 0.8rem;
+    font-family: italic;
+}
+.diploma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 2rem;
+}
+.diploma h2 {
+    margin-bottom: 1.4rem;
+    font-weight: 400;
+}
+.diploma .text {
+    background-color: #eee;
+    box-sizing: border-box;
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+}
+.diploma p {
+    margin-bottom: 1.2rem;
+    font-size: 0.8rem;
+    text-align: left;
+}
+.diploma>p {
+    margin-top: 1rem;
+}
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: calc(75% - 4rem);
+    margin-bottom: 2rem;
+    background:  linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.5)), 
+    url(./images/sign-up-prompt-background.jpg);
+    color: #fff;
+    box-sizing: border-box;
+    background-size: contain;
+    box-shadow: 1px 1px 5px #AAA;
+}
+.explore p {
+    font-size: .8rem;
+    width: 60%;
+    text-align: center;
+    line-height: 1;
+}
+.explore .wrapper {
+    display: flex;
+    padding: 1rem;
+}
+.apply {
+    padding: 2px 24px;
+    border: none;
+    color: #42abf8;
+    font-size: .8rem;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.apply:hover, .curriculum:hover {
+    cursor: pointer;
+}
+.curriculum{
+    padding: 2px 24px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: .8rem;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.vertical-line {
+    width: 1px;
+    height: 30px;
+    background-color: #FFF;
+    margin: 0 1rem;
+}
+footer {
+    box-sizing: border-box;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(75% - 4rem);
+    border-top: 1px solid #333;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.left img {
+    width: 130px;
+}
+.left p {
+    font-size: .7rem;
+    color: #AAA;
+    margin-left: 1rem;
+}
+footer ul {
+    display: flex;
+    font-size: 0.7rem;
+}
+footer ul li {
+    margin-left: 0.5rem;
+}
+
