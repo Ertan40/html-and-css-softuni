@@ -1,0 +1,46 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+header .logo {
+    text-align: center;
+}
+
+header .logo img {
+    margin: auto;
+}
+main {
+    display: flex;
+    margin: 2rem 8rem 2rem 8rem;   
+}
+main .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+main .image-wrapper {
+    display: flex;
+    width: 50%;
+}
+.wrapper p, .wrapper h3 {
+    color: #878686;
+}
+ul li {
+    display: flex;
+    margin-top: 34px;
+}
+ul li .image, ul li .description {
+    display: inline-block;
+    
+}
+.wrapper>h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.logo>h1 {
+    font-weight: 300;
+}
+.wrapper h2, .wrapper p {
+    margin-right: 20px;
+}
