@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* black #121415 */
+html {
+    font: 14px/1.5 "PT Serif", sans-serif;
+    color: black;
+}
+body {
+    padding: 2rem;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 860px;
+    max-height: 420px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem; 
+    background: url(./image/image1.png) no-repeat;
+    background-size: contain;
+    box-shadow: 2px 2px 8px #121415;
+    padding: 2rem 2rem;
+}
+.left {
+    flex: 1 1 40%;
+}
+.right   {
+    flex: 1 1 40%;
+}
+.left h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 1.4px dotted #0a850b;
+}
+span {
+    color: #0a850b;
+    font-weight: bold;
+}
+ul {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    word-spacing: 2px;
+}
+.minutes {
+    display: flex;
+    justify-content: space-between;
+    font-family: italic;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+.row {
+    display: table-row;
+    text-align: center;
+}
+.cell {
+    display: table-cell;
+    border: 1.6px solid #0a850b;
+    padding: 2px;
+}
