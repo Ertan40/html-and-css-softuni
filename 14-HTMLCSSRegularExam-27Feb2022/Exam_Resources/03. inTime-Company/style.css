@@ -1,0 +1,247 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+/* button blue: #008cba 
+   brand-blue: #69b7c2
+   button black: #454545
+   input: #6bbfff  
+   subscribe #393f43
+   footer #2f3539
+   footer end #262b2f
+   welcome text #5b4849*/
+body {
+    font-family: Helvetica, sans-serif;
+}
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+nav ul li:first-child a {
+    border-bottom: 2px solid #69b7c2;
+}
+span {
+    color: #69b7c2;
+    font-weight: 200;
+}
+header h2 {
+    color: #5b4849;
+    font-weight: 200;
+}
+a {
+    text-decoration: none;
+    color: #5b4849;
+}
+/* banner */
+.banner {
+    background: url(./images/slide2.jpg) no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.promote {
+    width: 400px;
+    height: auto;
+    background-color: rgba(21, 21, 21, 0.5);
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 0.7rem 1rem;
+    position: absolute;
+    margin: 9rem 8rem;
+}   
+.promote h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 2px;
+}
+.promote button {
+    margin-top: .7rem;
+    background-color: #008cba;
+    border: none;
+    padding: 7px 36px;
+    color: #fff;
+   font-weight: 400;
+   border-radius: 28px;
+   margin: auto;
+}
+/* main part */
+main {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 80px; */
+    text-align: center;
+    gap: 2rem;
+}
+.welcome {
+    max-height: 200px;
+    padding: 20px 80px;
+    margin-bottom: 1rem;
+}
+.welcome h2 {
+    font-weight: 400;
+    /* margin-bottom: 1rem; */
+}
+.horizontal-line {
+    background-color: #69b7c2;
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;   
+}
+.welcome p {
+    margin: 1rem 2rem;
+    
+}
+.welcome button{
+    display: block;
+    background-color: #454545;
+    border: none;
+    padding: 6px 26px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 28px;
+    margin: auto;
+    font-weight: 400;         
+}
+/* services */
+main .services {
+    background-color: #eef0f1;
+    max-width: auto;
+    padding: 20px 80px;
+}
+.services h2 {
+    font-weight: 400;
+}
+.container-service {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+article {
+    background-color: #fff;
+}
+.container-service img {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.service-info p {
+    text-align: center;
+}
+.service-info h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #383636;
+    font-weight: 400;
+}
+.service-info p {
+    margin-bottom: 0.5rem;
+    color: #383636;
+    font-weight: 400;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.service-info button {
+    margin-bottom: 1.5rem;
+    display: block;
+    background-color: #454545;
+    border: none;
+    padding: 6px 26px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: auto;
+    font-weight: 400; 
+    margin-bottom: 1rem;
+}
+/* subscribe */
+.subscribe {
+    height: 200px;
+    padding: 20px 80px;
+    margin-top: -2rem;
+    background-color: #393f43;
+    padding: 2rem 0;
+}
+.subscribe h2 {
+    font-weight: 400;
+    color: #fff;
+}
+.subscribe p {
+    font-weight: 300;
+    color: #fff;
+    margin: 1rem;
+}
+.subscribe button {
+    background-color: #6bbfff;
+    border: none;
+    padding: 4px 26px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.subscribe input {
+    background-color: #545a5e;
+    border-radius: 4px;
+    border: none;
+    color: #6a6968;
+    padding: 4px 6px;
+    font-family: italic;
+    text-align: left;
+    width: 420px;
+}
+footer {
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: #2f3539;
+}
+.footer-container  {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.social {
+    display: flex;
+    gap: 0.7rem;
+}
+.social li {
+    font-size: 1rem;
+}
+footer h4{
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+footer li, footer p{
+    font-size: .8rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+footer a { 
+    color: #fff;
+}
+.footer-bottom {
+    background-color: #262b2f;
+    height: 50px;
+    font-size: .7rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+}
+.span-footer {
+    color: #69b7c2
+}
+.sofia {
+    height: 4px;
+}
+
