@@ -1,0 +1,34 @@
+@media (max-width: 600px) {
+    .left-to-right:first-child, 
+    main section.left-to-right:nth-child(3) {
+        width: 600px;
+        height: 400px;
+    }
+    main .left-to-right article {
+        border-radius: 3rem;
+        width: 350px;
+        height: 200px;
+        padding: 75px 30px 75px 30px;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    button {
+        display: none;
+    }
+    article p {
+        font-size: 1rem;
+    }
+    main section:nth-child(4) article {
+        width: 60%;
+        margin: 0 auto;
+    }
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        flex-direction: column;
+    }
+}
+
