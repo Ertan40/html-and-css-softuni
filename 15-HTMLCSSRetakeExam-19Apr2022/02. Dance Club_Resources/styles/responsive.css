@@ -1,1 +1,102 @@
-//TODO
+/* /* //TODO */
+@media (max-width: 800px) {
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-options {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trainings {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu p {
+        margin-left: 2rem;
+    }
+    .instructors-pic {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .getInTouch {
+        display: block; 
+    }
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .site-footer .about {
+        flex: 0 0 100%;
+    }
+}
+
+
+/* @media (max-width:600px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .menu>p {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .nav-options {
+        flex-direction: column;
+        align-items: center;
+    }
+    .trainings {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .trainings div {
+        width: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .instructors {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .instructors-pic {
+        justify-content: center;
+    }
+    .classes ul {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 10px;
+    }
+    .classes ul li {
+        width: 40%;
+    }
+    .getInTouch {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+    }
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .wrapper {
+        flex-direction: column;
+    } 
+   
+    .contacts {
+        position: absolute;
+        bottom: 1.2rem;
+        right: 0;
+    }
+} */
